@@ -91,10 +91,10 @@ Fraud_platform/
 
 ## ⚙️ Installation
 
-```bash
 git clone <repo>
 cd Fraud_platform
 pip install -r requirements.txt
+
 
 🏋️ Train Model
 python src/train.py
