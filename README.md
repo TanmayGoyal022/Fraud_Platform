@@ -126,57 +126,57 @@ http://localhost:8501
 
 You can:
 
-inspect transactions
+- inspect transactions
 
-see scores & risk level
+- see scores & risk level
 
-assign labels (fraud / legit / unknown)
+- assign labels (fraud / legit / unknown)
 
-Labels are written back into logs/events.csv.
+- Labels are written back into logs/events.csv.
 
 🔁 Retraining Workflow (Human-in-Loop)
 
-Model scores transactions
+- Model scores transactions
 
-Analysts label cases in dashboard
+- Analysts label cases in dashboard
 
-Labeled rows become retraining dataset
+- Labeled rows become retraining dataset
 
-Train updated model using real outcomes
+- Train updated model using real outcomes
 
-This mirrors real-world fraud ops pipelines.
+- This mirrors real-world fraud ops pipelines.
 
 🛠️ Tech Stack
 
-Python
+- Python
 
-Pandas
+- Pandas
 
-XGBoost
+- XGBoost
 
-Scikit-learn
+- Scikit-learn
 
-FastAPI
+- FastAPI
 
-Streamlit
+- Streamlit
 
-Joblib
+- Joblib
 
 🎯 Future Enhancements (Roadmap)
 
-drift monitoring
+- drift monitoring
 
-model versioning
+- model versioning
 
-streaming transaction simulator
+- streaming transaction simulator
 
-case comments & review audit log
+- case comments & review audit log
 
-auto-retraining pipeline
+- auto-retraining pipeline
 
-ensemble calibration metrics
+- ensemble calibration metrics
 
-database instead of CSV logs
+- database instead of CSV logs
 
 📌 Educational Purpose
 
@@ -190,14 +190,14 @@ Pull requests welcome. Don’t break things carelessly. The system already does 
 
 Built as a guided learning project to understand:
 
-ML pipelines
+- ML pipelines
 
-backend integration
+- backend integration
 
-risk engineering
+- risk engineering
 
-explainable AI
+- explainable AI
 
-dashboard tooling
+- dashboard tooling
 
 
